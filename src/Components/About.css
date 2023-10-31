@@ -1,0 +1,96 @@
+body {
+    font-family: "proxima-nova",sans-serif;
+    /* text-align: justify; */
+
+  }
+  
+  .container-fluid {
+      padding: 0;
+      text-align: justify;
+
+  }
+  
+  .container {
+      max-width: 800px;
+      text-align: justify;
+
+  }
+  
+  .content-page h1, 
+  .content-page h2, 
+  .content-page h3, 
+  .content-page h4 {
+      margin: 0;
+      padding: 20px 0 10px 0;
+  }
+  
+  .content-page .row {
+      padding: 30px 0 40px 0;
+      text-align: justify;
+
+  }
+  
+  .content-page h2 {
+      color: #333333;
+      text-align: justify;
+      font-size: 30px;
+  }
+  .content-page p {
+      color: #333333;
+      font-size: 14px;
+      padding-bottom: 10px;
+      text-align: justify;
+
+  }
+  
+  .content-page a {
+      color: #000;
+      font-weight: 600;
+      text-align: justify;
+
+  }
+  
+  .content-page .hero {
+      height: auto;
+      background-image: url("https://systmapp-temp.s3.amazonaws.com/about/header-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      text-align: start;
+
+      flex-direction: column;
+  }
+  
+  .content-page .hero h1 {
+      color: #fff;
+      font-size: 48px;
+      text-align: justify;
+
+  }
+  .content-page .hero p {
+      color: #ebf0f5;
+      font-size: 14px;
+      text-align: justify;
+
+  }
+  
+  .stats {
+    background: #f0f0f0;
+    text-align: justify;
+  }
+  
+  .stats .stats-value {
+    font-size: 60px;
+    display: block;
+    text-align: justify;
+
+    /* text-align: center; */
+  }
+  .stats .stats-label {
+    font-size: 20px;
+    display: block;
+    text-align: justify;
+
+    /* text-align: center; */
+  }

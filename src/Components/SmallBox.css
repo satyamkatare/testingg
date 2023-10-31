@@ -1,0 +1,36 @@
+.card_style{
+	margin: auto;
+	margin-top: 10vh;
+	transition: .8s !important;
+	box-shadow: 0 2px 4px 0px rgb(0 0 0 / 20%);
+	padding:2%;
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.578) !important;
+margin-bottom: 60px;	 
+}
+
+ /* .MuiPaper-root{
+	
+ } */
+ .card_style:hover{
+	 box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+	 transform: scale(1.03);
+ }
+ 
+ .card_heading{
+	 justify-content: center;
+	 align-items: center;
+	 margin:auto;
+ }
+ .MuiCardHeader-title{
+	 /* text-decoration: underline; */
+	 cursor: pointer;
+	 transition: 0.7s;
+	 font-weight: bolder !important;
+	color: black!important;
+	font-family: 'Oswald', sans-serif !important;
+}
+ .MuiCardHeader-title:hover{
+	 transform: scale(1.04);
+ }
+ 
